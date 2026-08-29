@@ -176,3 +176,53 @@ p{
     
 
 }
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .mmsh,
+    .blue_mmsh,
+    .red_mmsh {
+        text-align: center;
+    }
+
+    .mmsh img,
+    .blue_mmsh img,
+    .red_mmsh img {
+        display: block;
+        width: 220px;
+        height: 220px;
+        margin: 0 auto;
+    }
+
+    .text_div,
+    .blue_text_div,
+    .red_text_div {
+        display: block;
+    }
+
+    h1,
+    .blue_h1,
+    .red_h1 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .socail {
+        margin: 1rem;
+    }
+
+    .socail a {
+        font-size: 1.2rem;
+        margin: 0 5px;
+    }
+}
